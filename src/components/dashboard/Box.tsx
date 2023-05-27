@@ -1,76 +1,3 @@
-// import React from 'react'
-
-// const Box = () => {
-
-//     const data = [
-//         {
-//             innerPercentage : '24%',
-//             image : "/donut-chart2.svg",
-//             title: 'Non-Revenue Water',
-//             kpi : 'KPI:',
-//             per : '≥ 20 %',
-//             baseimage : '/base1.svg'
-//         },
-//         {
-//             innerPercentage : '58.8%',
-//             image : "/donut-chart1.svg",
-//             title: 'Collection Efficiency',
-//             kpi : 'KPI:',
-//             per : '≥ 90 %',
-//             baseimage : '/base.svg'
-//         },
-//         {
-//             innerPercentage : '-5%',
-//             image : "/donut-chart2.svg",
-//             title: 'S Conn. Market Growth',
-           
-           
-//             baseimage : '/base2.svg'
-//         },
-//         {
-//             innerPercentage : '2%',
-//             image : "/donut-chart3.svg",
-//             title: 'Capex (Php) YTD',
-//             baseimage : '/base3.svg'
-//         },
-//         {
-//             innerPercentage : '0.0%',
-//             image : "/donut-chart3.svg",
-//             title: 'Capex (Php) YTD',
-//             baseimage : '/base3.svg'
-//         },
-//     ]
-
-//   return (
-//     {data.map(()=>{
-//         return (
-//         <>
-//         <div className=' px-3 grid grid-cols-12 bg-white rounded-lg ' >
-//             <div className='col-span-6 flex justify-center items-center' >
-//                 <div className='absolute' >58.8%</div>
-//                 <img className='w-30'  src="/donut-chart1.svg" alt="" />
-//             </div>
-//             <div className='col-span-6 flex flex-col justify-center relative ' >
-//                 <div className='absolute top-0 right-0' >
-//                     <img src="icaction1.svg" alt="" className='' />
-//                 </div>
-//                 <div className='text-[25px] font-bold text-gray-500 ' >Collection Efficiency</div>
-//                 <div className='font-bold text-gray-500 ' >
-//                     <div>KPI:</div>
-//                     <div>≥ 90 %</div>
-//                 </div>
-//                 <div className='absolute bottom-0 right-0' >
-//                     <img src="/base.svg" alt="" />
-//                 </div>
-//             </div>
-    
-//         </div>
-//         </>
-//     )})}
-//   )
-// }
-
-// export default Box
 
 import React from 'react';
 
@@ -107,7 +34,7 @@ const Box = () => {
         {
             innerPercentage: '0.0%',
             image: "/donut-chart4.svg",
-            title: 'Capex (Php) YTD',
+            title: 'LWUA-WD JSA Reserves (%) YTD',
             baseimage: '/base3.svg'
         },
     ];
