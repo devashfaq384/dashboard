@@ -4,6 +4,7 @@ import Dashboard from '../dashboard/Dashbaord';
 import Graph from '../dashboard/Graph';
 import Ytd from '../dashboard/Ytd';
 import DataSheet from '../Data Sheets/DataSheet';
+import SheetLayout from '../Data Sheet Layout/SheetLayout';
 
 const AdminLayout = () => {
   const [menu, setMenu] = useState<number>(0)
@@ -31,7 +32,11 @@ const AdminLayout = () => {
 
           {/* Data Sheets  */}
           {menu === 2 ? 
-          <DataSheet></DataSheet>
+          <SheetLayout setMenu={setMenu} ></SheetLayout>
+          : null
+        }
+          {menu === 6 ? 
+         <DataSheet></DataSheet>
           : null
         }
         
