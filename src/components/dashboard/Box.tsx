@@ -52,7 +52,7 @@ const Box = () => {
                         <div className='absolute top-0 right-0'>
                             <img src='icaction1.svg' alt='' className='' />
                         </div>
-                        <div className='text-[25px] font-bold text-gray-500'>{item.title}</div>
+                        <div className='text-[22px] font-bold text-gray-500'>{item.title}</div>
                         <div className='font-bold text-gray-500'>
                             <div>{item.kpi ? item.kpi : null}</div>
                             <div>{item.per ? item.per : null}</div>
